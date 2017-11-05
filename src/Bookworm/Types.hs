@@ -37,8 +37,12 @@ type Height = Integer
 
 type Action = CreateProcess
 
+type Arguments = [String]
+
 class SubCommand comm where
     toTerminalCommand :: comm -> String
+
+    fromTerminalArguments :: Arguments -> Maybe comm
     
     toProcess :: comm -> Action
     toProcess comm = shell $ toTerminalCommand comm
