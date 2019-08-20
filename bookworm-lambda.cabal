@@ -2,11 +2,11 @@ name:                bookworm-lambda
 version:             0.1.0.0
 synopsis:            A terminal utility for automating book scan processing.
 -- description:
-homepage:            https://github.com/stallmanifold/bookworm-lambda
+homepage:            https://github.com/lambdaxymox/bookworm-lambda
 license:             Apache-2.0
 license-file:        LICENSE-APACHE
-author:              Stallmanifold
-maintainer:          stallmanifold@gmail.com
+author:              LambdaXymox
+maintainer:          lambda.xymox@gmail.com
 -- copyright:           
 -- category:            
 build-type:          Simple
@@ -40,4 +40,4 @@ test-suite bookworm-lambda-test
 
 source-repository head
   type:     git
-  location: https://github.com/stallmanifold/bookworm-lambda
+  location: https://github.com/lambdaxymox/bookworm-lambda
